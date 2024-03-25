@@ -749,6 +749,11 @@
                             padding: 0 40px 35px;
                             background: linear-gradient(225deg, rgba(252, 185, 0, 0) 54%, rgba(227, 150, 16, 0.8520658263305322) 100%);
                             background-color: #fff;
+                            transition: all 0.5s;
+
+
+
+
 
                             .our_feedbacks_box_main_img{
                                     width: 75px;
@@ -793,6 +798,16 @@
                         }
                         
                             
+                        }
+
+                        .our_feedbacks_box_main:hover{
+                            background-color: #292626;
+                            opacity: 0.6;
+                            p{
+                               color: #fff; 
+                            }
+                            
+
                         }
 
                         h5{
@@ -841,8 +856,8 @@
            
 
             .isotope-app{
-                width: 600px;
-                height: 700px;
+                width: 400px;
+                height: 450px;
                 overflow: hidden;
                 background-color: #000;
                 position: relative;
